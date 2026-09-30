@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="container">
+
+    <h1><strong>Text Analysis Results</strong></h1>
+
+    <p>Number of words: {{ words }}</p>
+    <p>Number of characters: {{ characters }}</p>
+    <p>Number of sentences: {{ sentences }}</p>
+
+    <h2>Most Common Words</h2>
+
+    <ul>
+        {% for word, count in common_words %}
+        <li>{{ word }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Writing Review</h2>
+    <p>{{ review }}</p>
+
+
+</div>
+
+{% endblock %}

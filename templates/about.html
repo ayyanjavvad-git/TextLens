@@ -1,0 +1,29 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <h1>About {{name}}</h1>
+  <p>
+        TextLens is a web application created to explore how Python can be
+        combined with Flask to build interactive web applications. This
+        project focuses on connecting backend programming with frontend
+        technologies to create a useful text analysis tool.
+
+        The application was developed using the following technologies:
+  </p>
+
+
+    <ul class="tech-lists">
+
+        {% for tech in techs %}
+
+            <li class="tech">
+                {{tech}}
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <p><strong>Created by:</strong> {{ creator }}</p>
+
+</div>
+{% endblock %}
