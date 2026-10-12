@@ -1,4 +1,4 @@
-## **TextLens — Text Analyzer**
+# **TextLens — Text Analyzer**
 
 
 
