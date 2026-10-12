@@ -6,89 +6,86 @@ TextLens is a web application built with Python and Flask that analyzes text and
 
 
 
-###### **Features**
+## **Features**
 
 
 
-Count the number of words
+- Count the number of words
 
 
 
-Count the number of characters
+- Count the number of characters
 
 
 
-Estimate the number of sentences
+- Estimate the number of sentences
 
 
 
-Display the five most common words
+- Display the five most common words
 
 
 
-Provide writing recommendation based on text size
+- Provide writing recommendation based on text size
 
 
 
-###### **Technologies Used**
+## **Technologies Used**
 
 
 
-Python
+- Python
 
 
 
-Flask
+- Flask
 
 
 
-HTML
+- HTML
 
 
 
-CSS
+- CSS
 
-**How to Run Locally**
+## **How to Run Locally**
 
-
-
-Clone this repository.
+- Clone this repository.
 
 
 
-Open a terminal in the project folder.
+- Open a terminal in the project folder.
 
 
 
-Create a virtual environment:
+- Create a virtual environment:
 
 
 
-py -m venv venv
+- py -m venv venv
 
 
 
-Activate the virtual environment on Windows:
+- Activate the virtual environment on Windows:
 
 
 
-venv\\Scripts\\activate
+- venv\\Scripts\\activate
 
 
 
-Install the dependencies:
+- Install the dependencies:
 
 
 
-py -m pip install -r requirements.txt
+- py -m pip install -r requirements.txt
 
 
 
-Start the application:
+- Start the application:
 
 
-
-py app.py
+- py app.py
 
 
 
